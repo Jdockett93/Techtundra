@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+.bannerImage {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.bannerImg {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+html, body {
+    margin: 0; 
+    padding: 0;
+  }
+
+.btn-outline {
+    border-color: darkgoldenrod;
+    color: darkgoldenrod;
+    background-color: rgb(58, 59, 59);
+}
+
+.btn-outline:hover {
+    border-color: dimgrey;
+    color: black;
+    background-color: darkgoldenrod;
+}
+/* crards*/
+
+.cardgrey {
+background-color: dimgrey;
+border-radius: 15px;
+width: 85%; 
+max-width: 100%;
+margin-bottom: 50px;
+border: 2px solid;
+}
+
+.aboutcard {
+    background-color: silver;
+    border-radius: 30px;
+    width: 70%;
+    margin-bottom: 50px;
+}
+/*headers*/
+
+.h1header {
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+}
+
+.h5yellow {
+    color: darkgoldenrod;
+}
+
+.h1products {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 
+        1px 1px 0 goldenrod, 
+        -1px -1px 0 goldenrod, 
+        1px -1px 0 goldenrod, 
+        -1px 1px 0 goldenrod, 
+        1px 0 0 goldenrod, 
+        0 1px 0 goldenrod, 
+        -1px 0 0 goldenrod, 
+        0 -1px 0 goldenrod; /* Adjust the color and size as needed */
+}
+}
+/* embedded links home page */
+
+.link-container {
+    padding: 20px; /* Adjust padding as needed */
+   
+  }
+.link-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional: Add border for visual separation */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    background-color: black; /* Optional: Add background color */
+  }
+
+
+
+/* grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(34, 34, 34); /* Line color */
+}
+.grid-item {
+    background-color: ; /* Background color for the items */
+    padding: 20px;
+    border: 1px solid #000; /* Border color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+.grid-item button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* testomonilas */
+
+.testimonial {
+    background-color: #f9f9f9; /* Background color for the testimonials */
+    padding: 20px;
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.testimonial img {
+    max-width: 100px;
+    border-radius: 0%;
+    margin-bottom: 10px;
+}
+.testimonial p {
+    margin: 10px 0;
+}
+.testimonial .name {
+    font-weight: bold;
+}
+
+
+
+
+.backgroundimage {
+    background-image: url(images/greyfirefly.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+.backgroundsolid {
+    background-color: dimgrey;
+}  
+
+.jaro-font {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem; /* Adjust the size as needed */
+    text-shadow: 
+        1px 1px 0 goldenrod, 
+        -1px -1px 0 goldenrod, 
+        1px -1px 0 goldenrod, 
+        -1px 1px 0 goldenrod, 
+        1px 0 0 goldenrod, 
+        0 1px 0 goldenrod, 
+        -1px 0 0 goldenrod, 
+        0 -1px 0 goldenrod; /* Adjust the color and size as needed */
+}
+
+
+
+/* caraousel */
+
+.carouselimg {
+    overflow: hidden;
+}
+
+/* Add custom style for images to make them smaller */
+.carousel-item img {
+    height: auto; /* Set the desired height */
+    object-fit: fill; /* Ensure the image covers the entire area */
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 1px solid #fff; /* Add border for the outline */
+  }
+  .carousel-indicators .active {
+    background-color: black;
+    border: 1px solid goldenrod; /* Change border color for active indicator */
+  }
+
+
+/*forsale cards*/
+
+.cardsale {
+    background-color: dimgray;
+    text-align: center;
+    transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.cardsale:hover {
+    transform: scale(1.10); /* Scale the element slightly */
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding-bottom: 3rem; /* Ensure the body doesn't overlap the button */
+}
+
+.btn-block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+}
+
+/*form*/
+
+.form-label {
+    font-weight: bold;
+    font-size: x-large; /* Adjust the size as needed */
+    text-decoration: underline;
+}
+
+  /* About Page Styles */
+
+  .team-member {
+    transition: transform 0.3s ease-in-out;
+    border-color: black;
+    max-height: 800px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.team-member img {
+    height: 500px; /* Adjust the image height as needed */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+  .team-member:hover {
+    transform: scale(1.05);
+  }
+
+/* icon colors */
+
+  .fbicon {
+    color: blue;
+  }
+
+  .instaicon {
+    color: darkorchid;
+  }
+
+  .xicon {
+    color: aqua;
+  }
+
+  .yticon {
+    color: crimson;
+  }
+
+  .pinteresticon {
+    color: coral;
+  }
+
+
+
+
+  #slidingImage {
+    position: absolute;
+    top: 50%;
+    left: -100%; /* Start off-screen */
+    transform: translateY(-50%);
+}
+
+
+.custom-size {
+    font-size: 8rem; /* Adjust size as needed */
+    color: goldenrod;
+}
+
+.cardsupport {
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid #ffffff; /* Adjust the border width, style, and color as needed */
+}
+
